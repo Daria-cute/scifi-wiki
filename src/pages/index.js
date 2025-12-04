@@ -22,7 +22,8 @@ function HomepageHeader() {
         <div style={{marginTop: '2rem'}}>
           <Link
             className="button button--primary button--lg"
-            to="/docs/01-history/overview"
+            // 🔥 修复点：这里也去掉了 01-
+            to="/docs/history/overview"
             style={{
               backgroundColor: '#25c2a0',
               borderColor: '#25c2a0',
